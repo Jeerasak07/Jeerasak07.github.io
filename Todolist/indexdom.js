@@ -25,3 +25,14 @@ function addTodo(){
     let elist = document.getElementById('todolist');
     elist.appendChild(newli);
 }
+
+let cl = document.querySelector('ul')
+cl.addEventListener('click', (e) => {
+    if (e.target.tagName === 'SPAN') {
+        let tdlist = document.querySelectorAll('.list-group-item').forEach(td => {
+            td.addEventListener('click', () => {
+                td.remove()
+            })
+        })
+    }
+})
