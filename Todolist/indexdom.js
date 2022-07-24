@@ -26,13 +26,20 @@ function addTodo(){
     elist.appendChild(newli);
 }
 
-let cl = document.querySelector('ul')
-cl.addEventListener('click', (e) => {
-    if (e.target.tagName === 'SPAN') {
-        let tdlist = document.querySelectorAll('.list-group-item').forEach(td => {
-            td.addEventListener('click', () => {
-                td.remove()
-            })
-        })
-    }
-})
+// Close item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Checked
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
