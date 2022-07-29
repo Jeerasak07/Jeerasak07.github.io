@@ -4,130 +4,358 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css" />
+    <link href="index1.css" rel="stylesheet">
     <title>My Website</title>
-  </head>
-<div class="row py-5 px-4"> 
-    <div class="col-md-5 mx-auto"> 
-        <!-- Profile widget --> 
-        <div class="bg-white shadow rounded overflow-hidden"> 
-            <div class="px-4 pt-0 pb-4 cover"> 
-                <div class="media align-items-end profile-head"> 
-                    <div class="profile mr-3">
-                        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/290314811_368059348592702_2345729442447412152_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHa9hQqxC6gvIre9994oIuvoRP16j5y1eqhE_XqPnLV6kHLw9HWTrqcZOCR0tqHs18P4ztSRC3r3pa0Kxl4nsUG&_nc_ohc=XuUuGaB2qGAAX_OWyZn&tn=KZ1X7HEC7aBh3e0i&_nc_ht=scontent.fbkk10-1.fna&oh=03_AVIqgdCvrfOGbqxwcfbhmW2gPEIK7Ba2xby8yqrLp3B15A&oe=62EE3165" alt="..." width="275" class="rounded mb-2 img-thumbnail">
-                    </div> 
-                    <div class="media-body mb-5 text-white"> 
-                        <h4 class="mt-0 mb-0">Jeerasak Phalee</h4> 
-                        <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i>Jonus</p> 
-                    </div> 
-                </div> 
+  
+  <body>
+    <div class="main-content">
+      <!-- Top navbar -->
+      <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+        <div class="container-fluid">
+          <!-- Brand 
+          <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">User profile</a>
+          -->
+        <div class="colum-right">
+          <div class="collapse navbar-collapse">
+            <!--<ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/Jeerasak.Phalee" target="_blank">
+              <i class="fa fa-twitter"><img src="facebook.png"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/mr.jo_nus/" target="_blank">
+              <i class="fa fa-facebook-square"><img src="instagram.png"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="https://github.com/Jeerasak07" target="_blank">
+              <i class="fa fa-instagram"><img src="github.png"></i>
+            </a>
+          </li>
+            </ul>-->
+        </div>
+      </div>
+          <!-- Form -->
+          <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+            <div class="form-group mb-0">
+              <div class="input-group input-group-alternative">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+                <input class="form-control" placeholder="Search" type="text">
+              </div>
             </div>
-            <div class="bg-light p-4 d-flex justify-content-end text-center">
-              <br><br><h7>Hi !!!</h7>
-                            </div>
-                            <div class="px-4 py-3"> <h5 class="mb-0">  About Me</h5><br>
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                      <div class="row">
-                                        <div class="col-sm-3">
-                                          <h6 class="mb-0">E-mail</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                          jeerasak_phalee@kkumail.com
-                                        </div>
-                                      </div>
-                                      <hr>
-                                      <div class="row">
-                                        <div class="col-sm-3">
-                                          <h6 class="mb-0">ระดับการศึกษา</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                          กำลังศึกษาอยู่ที่ มหาวิทยาลัยขอนแก่น
-                                        </div>
-                                      </div>
-                                      <hr>
-                                      <div class="row">
-                                        <div class="col-sm-3">
-                                          <h6 class="mb-0">จบจากโรงเรียน</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                          บ้านแพงพิทยาคม
-                                        </div>
-                                      </div>
-                                      <hr>
-                                      <div class="row">
-                                        <div class="col-sm-3">
-                                          <h6 class="mb-0">ที่อยู่</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                          เลขที่ 57 ม.8 ตำบลไผ่ล้อม อำเภอบ้านแพง จังหวัดนครพนม
-                                        </div>
-                                      </div>
-                                      <hr>
-                                      <div class="row">
-                                        <div class="col-sm-3">
-                                          <h6 class="mb-0">ประวัติ</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                          สวัสดีครับ ผม นาย จีรศักดิ์ ผาลี รหัสนักศึกษา 633410009-7
-                                          เป็นนักศึกษาอยู่ สาขาวิทยาการคอมพิวเตอร์และสารสนเทศ คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                            <hr>
-                            <div class="col">
-                              <div class="px-4 py-3"> <h5 class="mb-0">Computer Skills</h5>
-                                <div class="card-body">
-                                <h7>Programming</h7>
-                                <div class="progress mb-3" style="height: 15px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                                </div>
-                                <h7>Database</h7>
-                                <div class="progress mb-3" style="height: 15px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                                </div>
-                                <h7>Web Technology</h7>
-                                <div class="progress mb-3" style="height: 15px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                                </div>
-                              <h7>Analysis and Design</h7>
-                            <div class="progress mb-3" style="height: 15px">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </form>
+          <!-- User -->
+          <ul class="navbar-nav align-items-center d-none d-md-flex">
+            <li class="nav-item dropdown">
+              <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="media align-items-center">
+                  <span class="avatar avatar-sm rounded-square">
+                    <img alt="Image placeholder" src="Jo.jpg">
+                  </span>
+                  <div class="media-body ml-2 d-none d-lg-block">
+                    <span class="mb-0 text-sm  font-weight-bold">Jeerasak Phalee</span>
+                  </div>
+                </div>
+              </a>
+  
+              <!--<div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                <div class=" dropdown-header noti-title">
+                  <h6 class="text-overflow m-0">Welcome!</h6>
+                </div>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-single-02"></i>
+                  <span>My profile</span>
+                </a>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-settings-gear-65"></i>
+                  <span>Settings</span>
+                </a>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-calendar-grid-58"></i>
+                  <span>Activity</span>
+                </a>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-support-16"></i>
+                  <span>Support</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#!" class="dropdown-item">
+                  <i class="ni ni-user-run"></i>
+                  <span>Logout</span>
+                </a>
+              </div>-->
+  
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Header -->
+      <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 300px; background-image: url(AAA.jpg); background-size: cover; background-position: center top;">
+        <!-- Mask -->
+        <span class="mask bg-gradient-default opacity-8"></span>
+        <!-- Header container -->
+        <div class="container-fluid d-flex align-items-center">
+          <div class="row">
+            <div class="col-lg-7 col-md-10">
+              <h1 class="display-2 text-white">Hello Jeerasak Phalee</h1>
+              <p class="text-white mt-0 mb-5">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+              <!--<a href="#!" class="btn btn-info">Edit profile</a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Page content -->
+      <div class="container-fluid mt--7">
+        <div class="row">
+          <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+            <div class="card card-profile shadow">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 order-lg-2">
+                  <div class="card-profile-image">
+                    <a href="#">
+                      <img src="Jo.jpg" width="m-auto" height="m-auto">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+                <div class="d-flex justify-content-between">
+                  <!--<a href="#" class="btn btn-sm btn-info mr-4">Connect</a>-->
+                  <a href="#" class="btn btn-sm btn-default float-right">Message</a>
+                </div>
+              </div>
+              <div class="card-body pt-0 pt-md-4">
+                <div class="row">
+                  <div class="col">
+                    <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                      <div>
+                        <a href="https://www.facebook.com/jeerasak.Phalee/" target="_blank"><img src="facebook.png"></a>
+                      </div>
+                      <div>
+                        <a href="https://www.instagram.com/mr.jo_nus/" target="_blank"><img src="instagram.png"></a>
+                      </div>
+                      <div>
+                        <a href="https://github.com/Jeerasak07" target="_blank"><img src="github.png"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <h3>
+                    I'm Jonus<span class="font-weight-light">, 21</span>
+                  </h3>
+                  <div class="h5 font-weight-300">
+                    <i class="ni location_pin mr-2"></i>Computer And Information Science.
+                  </div>
+                  <div class="h5 mt-4">
+                    <i class="ni business_briefcase-24 mr-2"></i>Nongkhai Campus.
+                  </div>
+                  <div>
+                    <i class="ni education_hat mr-2"></i>Khon Kaen University.
+                  </div>
+                  <hr class="my-4">
+                  <p>The best preparation for tomorrow is doing your best today.</p>
+                  <a href="#">Show more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 order-xl-1">
+            <div class="card bg-secondary shadow">
+              <div class="card-header bg-white border-0">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <h3 class="mb-0">My account</h3>
+                  </div>
+                  <div class="col-4 text-right">
+                    <!--<a href="#!" class="btn btn-sm btn-primary">Settings</a>-->
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <form>
+                  <h6 class="heading-small text-muted mb-4">User information</h6>
+                  <div class="pl-lg-4">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-username">Username</label>
+                          <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="จีรศักดิ์">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-last-name">Last name</label>
+                          <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="ผาลี">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-Student-ID">Student ID</label>
+                          <input type="text" id="input-Student-ID" class="form-control form-control-alternative" placeholder="Student ID" value="633410009-7">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-email">Email address</label>
+                          <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="email" value="jeerasak_phalee@kkumail.com">
                         </div>
                       </div>
                     </div>
-            <hr>
-            <div class="px-4 py-3"> <h5 class="mb-0">Contact</h5>
-              <div class="p-4 rounded shadow-sm bg-light">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github mr-2 icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</h6>
-                    <a href="https://github.com/Jeerasak07">Jeerasak07</a></li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                      <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Instagram</h6>
-                      <a href="https://www.instagram.com/mr.jo_nus/">mr.jo_nus</a></li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                        <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-primary"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</h6>
-                        <a href="https://www.facebook.com/Jeerasak.Phalee">Jeerasak Phalee</a></li>
-                      </ul>
-                    </div>
                   </div>
-                  <hr>
-                  <div class="px-4 py-3"> <h5 class="mb-0">My Work</h5>
-                    <div class="card mt-3">
-                      <div class="text-center">
-                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap"><h5>LAB2JS</h5>
-                        <a href="https://Jeerasak07.github.io/Todolist/">JS ToDo</a></li>
+                  <hr class="my-4">
+                  <!-- Address -->
+                  <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                  <div class="pl-lg-4">
+                    <div class="row">
+                      <div class="col-md-7">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-address">Address</label>
+                          <input id="input-address" class="form-control form-control-alternative" placeholder="Address" value="57 หมู่ 8 บ้านโพธิ์ทอง ตำบลไผ่ล้อม อำเภอบ้านแพง" type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-city">City</label>
+                          <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="นครพนม">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-country">Country</label>
+                          <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="ประเทศไทย">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-country">Postal code</label>
+                          <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code" value="48140"> 
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div> 
-              </div> 
+                  <hr class="my-4">
+                  <!-- Education -->
+                  <h6 class="heading-small text-muted mb-4">EducationS</h6>
+                  <div class="pl-lg-4">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-address">School</label>
+                          <input id="input-school" class="form-control form-control-alternative" placeholder="School" value="โรงเรียนบ้านแพงพิทยาคม" type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-city">Branch</label>
+                          <input type="text" id="input-branch" class="form-control form-control-alternative" placeholder="Branch" value="สาขาวิทยาการคอมพิวเตอร์และสารสนเทศ">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-country">Faculty</label>
+                          <input type="text" id="input-faculty" class="form-control form-control-alternative" placeholder="Faculty" value="คณะสหวิทยาการ">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-university">University</label>
+                          <input type="text" id="input-university" class="form-control form-control-alternative" placeholder="๊University" value="มหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย"> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="my-4">
+                  <!-- Description -->
+                  <h6 class="heading-small text-muted mb-4">About me</h6>
+                  <div class="pl-lg-4">
+                    <div class="form-group focused">
+                      <label>About Me</label>
+                      <textarea rows="4" class="form-control form-control-alternative" placeholder="เขียนอธิบายเกี่ยวกับตัวคุณ">สวัสดีครับ ผมชื่อ นาย จีรศักดิ์ ผาลี 633410009-7 เป็นนักศึกษาคณะสหวิทยาการ มหาวิทยาลัยขอนแก่น.</textarea>
+                    </div>
+                  </div>
+                  <hr class="my-4">
+                  <!-- Work -->
+                  <h6 class="heading-small text-muted mb-4">Work</h6>
+                  <div class="pl-lg-4">
+                    <div class="form-group focused">
+                      <label>My work</label>
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap"><h5>LAB2JS</h5>
+                          <a href="https://Jeerasak07.github.io/Todolist/">JS ToDo</a></li>
+                    </div>
+                  </div>
+                  <hr class="my-4">
+                  <!-- Computer Skill -->
+                  <h6 class="heading-small text-muted mb-4">Computer Sill</h6>
+                  <div class="pl-lg-4">
+                    <div class="form-group focused">
+                      <label>My Skill</label>
+                      <div class="col">
+                          <div class="card-body">
+                          <h7>Programming</h7>
+                          <div class="progress mb-3" style="height: 15px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                          </div>
+                          <h7>Database</h7>
+                          <div class="progress mb-3" style="height: 15px">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                          </div>
+                          <h7>Web Technology</h7>
+                          <div class="progress mb-3" style="height: 15px">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                          </div>
+                            <h7>Analysis and Design</h7>
+                            <div class="progress mb-3" style="height: 15px">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="row align-items-center justify-content-xl-between">
+        <div class="col-xl-6 m-auto text-center">
+          <div class="copyright">
+            <div class="row-center">
+              <div class="card-body pt-0 pt-md-4">
+                <!--<div class="row">
+                  <div class="col">
+                    <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                      <div>
+                        <a href="https://www.facebook.com/jeerasak.Phalee/" target="_blank"><img src="facebook.png"></a>
+                      </div>
+                      <div>
+                        <a href="https://www.instagram.com/mr.jo_nus/" target="_blank"><img src="instagram.png"></a>
+                      </div>
+                      <div>
+                        <a href="https://github.com/Jeerasak07" target="_blank"><img src="github.png"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <p>Made with <a href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">Argon Dashboard</a> by Creative Tim</p>-->
+            <p>Made with <a href="#" target="_blank">Argon Dashboard</a> by Creative Tim</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
         </html
