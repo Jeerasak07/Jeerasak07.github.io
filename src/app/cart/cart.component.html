@@ -1,7 +1,7 @@
 <p *ngFor="let i of items">
     {{ i.name }} 
     {{ i.price | currency: "THB : " }} 
-    {{ i.quantity | currency: "Quantity = " }} <button 
+    {{ i.quantity | currency: "Quantity = " }} <button mat-raised-button color="primary"
     (click)="delete(items)">
         <mat-icon>delete</mat-icon>
     </button></p>
